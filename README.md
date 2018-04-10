@@ -1936,7 +1936,7 @@ condition](#safe-assignment-in-condition).
 
 
 * <a name="titlecase-classes"></a>
-	Use `TamelCase` for classes and modules.	(Keep acronyms like HTTP, RFC, XML
+	Use `TitleCase` for classes and modules.	(Keep acronyms like HTTP, RFC, XML
 	uppercase.)
 <sup>[[link](#camelcase-classes)]</sup>
 
