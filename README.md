@@ -30,16 +30,15 @@
 <sup>[[link](#utf-8)]</sup>
 
 * <a name="tabs-indentation"></a>
-	Use one **tab** per indentation level (aka hard tabs). No soft tabs.
-<sup>[[link](#spaces-indentation)]</sup>
+	Use one **tab** per indentation level (aka soft tabs). No hard tabs.
 
 	```Ruby
-	# bad - two spaces
+	# good - two spaces
 	def some_method
 	  do_something
 	end
 
-	# good - tabs
+	# bad - tabs
 	def some_method
 		do_something
 	end
