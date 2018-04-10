@@ -2105,6 +2105,17 @@ condition](#safe-assignment-in-condition).
 		# body omitted
 	end
 	```
+## Namespace
+`LO3` should be the top level namespace.  The second level should be the same as the nam of the project.
+
+Given project `foo`:
+```ruby
+module LO3
+  class LO3::Foo
+
+  end
+end
+```
 
 ## Comments
 
