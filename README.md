@@ -883,9 +883,9 @@
 	```
 
 * <a name="no-and-or-or"></a>
-	The `and` and `or` keywords are banned. The minimal added readability is just
+	The `and`, `or` and `not` keywords are banned. The minimal added readability is just
 	not worth the high probability of introducing subtle bugs. For boolean
-	expressions, always use `&&` and `||` instead. For flow control, use
+	expressions, always use `&&`, `||` and `!` instead. For flow control, use
 	`if` and `unless`; `&&` and `||` are also acceptable but less clear.
 <sup>[[link](#no-and-or-or)]</sup>
 
