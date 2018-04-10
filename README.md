@@ -1146,7 +1146,7 @@ condition](#safe-assignment-in-condition).
 	names.map { |name| name.upcase }
 
 	# good
-	names.map &:upcase
+	names.map(&:upcase) # NOTE ruby 2.3 throws warning without parens 
 	```
 
 * <a name="single-line-blocks"></a>
