@@ -155,6 +155,17 @@
 	[1, 2, 3].each { |e| puts e }
 	```
 
+	Nested `(`, `[`, or `{` are on new lines
+	```ruby
+	#bad
+	[[1, 2],[3, 4]]
+	
+	#good
+	[
+	  [1, 2],
+	  [3, 4],
+	]
+	
 	`{` and `}` deserve a bit of clarification, since they are used
 	for block and hash literals, as well as string interpolation.
 
