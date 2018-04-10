@@ -547,9 +547,7 @@
 	```
 
 * <a name="rdoc-conventions"></a>
-	Use [Rdoc][rdoc] and its conventions for API documentation.	Don't put an
-	empty line between the comment block and the `def`.
-<sup>[[link](#rdoc-conventions)]</sup>
+	Use Yard doc and its conventions for API documentation.	TODO add link and fill in details.
 
 * <a name="180-character-limits"></a>
 	Limit lines to 180 characters.
