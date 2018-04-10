@@ -78,18 +78,17 @@
 	```
 
 * <a name="single-line-classes"></a>
-	Prefer a single-line format for class definitions with no body.
-<sup>[[link](#single-line-classes)]</sup>
-
+	Prefer a multi-line format for class definitions with no body.
+	
 	```Ruby
-	# bad
+	# good
 	class FooError < StandardError
 	end
 
 	# okish
 	class FooError < StandardError; end
 
-	# good
+	# Bad
 	FooError = Class.new(StandardError)
 	```
 
